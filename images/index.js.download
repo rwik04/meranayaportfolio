@@ -1,0 +1,9 @@
+document.querySelector("#about").addEventListener("click", myFunction());
+
+function myFunction(event){
+  event.preventDefault();
+
+  document.querySelector("#quote").scrollIntoView({
+    behavior: "smooth" // Scroll smoothly
+  });
+}
