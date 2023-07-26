@@ -1,5 +1,5 @@
 /*Importing Google Fonts*/
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Special+Elite&family=Ysabeau+Office&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Special+Elite&family=Ysabeau+Office&display=swap');
 
 
 /*Defining universal parameters*/
@@ -133,8 +133,7 @@ div.about{
 }
 /*My Skills section*/
 .myskills{
-    position: relative;
-    top: 3rem;
+    padding-top: 3em;
 }
 .card1 {
     width: 190px;
@@ -280,3 +279,52 @@ img{
 .skills{
     height: 100px;
 }
+#tech{
+    padding: 1em;
+}
+.card_skills {
+    width: 454px;
+    height: 289px;
+    background-image: linear-gradient(to bottom, #8e44ad, #3d1969);
+    border-radius: 10px;
+    transition: all .3s;
+   }
+   
+.card_skills2 {
+    width: 450px;
+    height: 285px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    transition: all .2s;
+}
+
+.card_skills .col{
+    padding: 20px;
+    background-color: rgba(0,0,0,0);
+}
+.card_skills .row{
+    position: relative;
+    top: 2rem;
+    background-color: rgba(0,0,0,0);
+}
+.languages{
+    height: 75px;
+}
+h1 p{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(61, 0, 87); /* You can choose any color you like */
+    display: inline-flex;
+    justify-content: center ;
+    align-items: center;
+}
+   .card_skills2:hover {
+    transform: scale(0.98);
+    transition: transform 0.2s ease ;
+    border-radius: 10px;
+   }

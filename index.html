@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rwik Dey's Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!--Navbar Beginning-->
@@ -26,10 +26,10 @@
                 <a class="nav-link" href="#" id="about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Skills</a>
+                <a class="nav-link" href="#" id="myskills">My Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">My Projects</a>
+                <a class="nav-link" href="#" id="myprojects">My Projects</a>
               </li>
             </ul>
           </div>
@@ -101,15 +101,15 @@
     </div>
     <!--About Section End-->
     <!--My Skills Section-->
-    <div class="myskills">
+    <div class="myskills animate__animated animate__fadeInUp">
       <div class="col-lg-12 container text-center">
         <h1>My Skills</h1>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <img src="images/What.png" height="220px">
         </div>
-        <div class="col-lg-6" id="description">
+        <div class="col-lg-6 col-md-6" id="description">
           <p><strong>During my time as a developer, I've explored exciting new approaches and tools to enhance my skills.
             I've learned about agile methodologies for better teamwork, clean architecture for organized code, and the importance
             of user-centric design. These experiences have fueled my passion for creating user-friendly and impactful software.
@@ -165,11 +165,118 @@
             </div>
           </div>
         </div>
+        <div class="container text-center" id="tech">
+          <img src="images/Tech.png" height="150px">
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card_skills">
+              <div class="card_skills2">
+                  <div class="row">
+                    <div class="col">
+                      <img src="images/languages/python.svg" class="languages">
+                    </div>
+                    <div class="col">
+                      <img src="images/languages/c++.svg" class="languages">
+                    </div>
+                    <div class="col">
+                      <img src="images/languages/c.svg" class="languages">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <img src="images/languages/html.svg" class="languages">
+                    </div>
+                    <div class="col">
+                      <img src="images/languages/css.svg" class="languages">
+                    </div>
+                    <div class="col">
+                      <img src="images/languages/js.svg" class="languages">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="container text-center">
+            <h1 style="color: #401d53;"><span class="circle" style="color: white;">1</span> Programming Languages<br>
+              <p style="color: initial">I have expertise in multiple programming languages and web development technologies. Proficient in C, C++, and Python for versatile application development. Skilled in HTML, CSS, and JavaScript for creating interactive web pages and user interfaces.</p>
+            </h1>
+            </div>  
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="container text-center">
+            <h1 style="color: #401d53;"><span class="circle" style="color: white;">2</span> Libraries<br>
+              <p style="color: initial">Proficient in NumPy, a powerful Python library for numerical computing, and Matplotlib for data visualization. Skilled in Pandas, enabling data manipulation and analysis. Well-versed in TensorFlow, an essential framework for deep learning and AI applications. Additionally, familiar with Bootstrap, a front-end framework for responsive web development, to create visually appealing and adaptive websites.</p>
+            </h1>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="card_skills">
+              <div class="card_skills2">
+                  <div class="row">
+                    <div class="col">
+                      <img src="images/languages/numpy.svg" class="languages">
+                    </div>
+                    <div class="col">
+                      <img src="images/languages/matplotlib.svg" class="languages" height="100px">
+                    </div>
+                    <div class="col">
+                      <img src="images/languages/pandas.svg" class="languages">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <img src="images/languages/tf.svg" class="languages">
+                    </div>
+                    <div class="col">
+                      <img src="images/languages/bootstrap.svg" class="languages">
+                    </div>
+                  </div>
+              </div> 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="card_skills">
+            <div class="card_skills2">
+                <div class="row">
+                  <div class="col">
+                    <img src="images/languages/vscode.svg" class="languages">
+                  </div>
+                  <div class="col">
+                    <img src="images/languages/jupyter.svg" class="languages">
+                  </div>
+                  <div class="col">
+                    <img src="images/languages/canva-svgrepo-com.svg" class="languages">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <img src="images/languages/colab.svg" class="languages">
+                  </div>
+                  <div class="col">
+                    <img src="images/languages/solidworks.svg" class="languages">
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="container text-center">
+          <h1 style="color: #401d53;"><span class="circle" style="color: white;">3</span> Softwares<br>
+            <p style="color: initial">Experienced in using VS Code as a versatile code editor with powerful extensions and features. Familiar with Jupyter Notebook for interactive data analysis and experimentation. Proficient in Google Colab, a cloud-based platform for collaborative coding and machine learning projects. Skilled in Canva, a graphic design tool for creating stunning visual content. Additionally, proficient in SolidWorks, a 3D CAD software for designing mechanical and industrial models.</p>
+          </h1>
+          </div>  
+        </div>
       </div>
     </div>
     <script src="https://use.fontawesome.com/releases/v6.4.0/js/all.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
+    <script src="index.js"></script>  
 </body>
 </html>
