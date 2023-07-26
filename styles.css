@@ -42,17 +42,6 @@
     justify-content: center;
 }
 
-.circle{
-    height: 100vh;
-    width: 100vw;
-    max-height: 100px;
-    max-width: 100px;
-    background: linear-gradient(to bottom, #8e44ad, #3d1969);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .home h1{
     z-index: 9999; /*Setting the z-index to maximum*/
     background-color: rgba(0,0,0,0);
