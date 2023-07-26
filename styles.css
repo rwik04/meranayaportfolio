@@ -24,6 +24,7 @@ ul{
 }
 h1{
     font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
 }
 .nav-item{
     font-weight: 600;
@@ -130,9 +131,44 @@ div.about{
     font-size: 1.5rem;
     text-align: center;
 }
-
-
 /*My Skills section*/
-
-
-
+.myskills{
+    position: relative;
+    top: 3rem;
+}
+.card1 {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #5e2676 0%, #ff00ee 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+.card2 {
+    width: 190px;
+    height: 254px;
+    background-color:#16042c;
+    border-radius: 10px;
+    transition: all .2s;
+}
+   
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+   
+.card1:hover {
+    box-shadow: 0px 0px 30px 1px rgb(43, 5, 30);
+}
+.myskills .col-lg-6{
+    padding-top: 3rem;
+    text-align: left;
+    height: fit-content;
+}
+.myskills .col-lg-6#description{
+    padding: 5rem;
+}
+.myskills #description p{
+    position: relative;
+    top: 1.5rem;
+}
