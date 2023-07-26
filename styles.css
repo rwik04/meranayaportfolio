@@ -256,8 +256,6 @@ img{
     position: absolute;
     z-index: -1;
     border-radius: 1em;
-    filter: blur(20px);
-    animation: animate 5s linear infinite;
   }
   
   @keyframes animate {
