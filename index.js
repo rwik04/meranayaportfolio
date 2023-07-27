@@ -25,6 +25,16 @@ function alertfunc(){
   alert('COMING SOON');
 }
 
+document.querySelector('.contact').addEventListener("click",scrolltoContact);
+
+function scrolltoContact(event){
+  event.preventDefault();
+
+  document.querySelector(".row.footer").scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
 
 
 

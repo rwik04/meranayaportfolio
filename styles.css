@@ -176,6 +176,7 @@ div.about{
     top: 5em;
     display: flex;
     row-gap: 3em;
+    height: max-content;
 }
 .col-lg-4{
     display: flex;
@@ -279,9 +280,6 @@ img{
 .skills{
     height: 100px;
 }
-#tech{
-    padding: 1em;
-}
 .card_skills {
     width: 454px;
     height: 289px;
@@ -328,3 +326,43 @@ h1 p{
     transition: transform 0.2s ease ;
     border-radius: 10px;
    }
+#tech{
+    position: relative;
+    top: 200px;
+}
+#languages{
+    padding-top: 250px;
+}
+#end{
+    padding-bottom: 150px;
+}
+/* Footer Section*/
+.row.footer{
+    background:linear-gradient(to bottom, #8e44ad, #3d1969);
+    padding: 0px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 10px;
+}
+.row.footer .col-lg-6{
+    height: fit-content;
+    padding-top: 2rem ;
+    text-align: center;
+}
+.row.footer h1{
+    background-color: #00000000;
+}
+.row.footer h1 p{
+    font-size: large;
+}
+.row.footer p{
+    background-color: #00000000;
+    color: white;
+}
+button#contact{
+    text-decoration: none;
+}
